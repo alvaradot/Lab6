@@ -34,8 +34,7 @@ def main():
         if option == 1:
             encoded_password = encode(input("Please enter your password to encode: "))
         elif option == 2:
-            decode_password = input("Please enter your password to decode: ")
-            decode(decode_password)
+            decode(encoded_password)
         print(menu)
         option = int(input("Please enter an option: "))
 
